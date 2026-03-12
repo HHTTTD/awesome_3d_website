@@ -1,0 +1,8 @@
+# Render.com — Static Site
+# https://render.com/docs/static-sites
+services:
+  - type: web
+    name: awesome-3d
+    env: static
+    buildCommand: npm install && npm run build
+    staticPublishPath: dist
